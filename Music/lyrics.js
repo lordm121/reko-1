@@ -48,7 +48,7 @@ async execute(message) {
     }
     //define lyrics Embed
     let lyricsEmbed = new MessageEmbed()
-      .setTitle("<:lyrics:769938447279456296> Lyrics")
+      .setTitle("<:⚡> Lyrics")
       .setDescription(lyrics)
       .setColor("#f300e5")
     //if to long make slice it

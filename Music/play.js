@@ -159,7 +159,7 @@ async execute(message, args, client) {
       serverQueue.songs.push(song);
       //the new song embed
       const newsong = new MessageEmbed()
-        .setTitle("<:⚡:> " + song.title)
+        .setTitle("<:⚡:>" + song.title)
         .setColor("#c219d8")
         .setThumbnail(thumb)
         .setURL(song.url)

@@ -14,8 +14,8 @@ module.exports = {
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setColor('RANDOM')
     .setTitle("__Help__")
-  .setImage( "https://cdn.discordapp.com/attachments/740344442979876977/795814786394488842/20210105_034210.gif")
-  .setDescription(`**[  SUPPORT  ](https://discord.gg/t8ZwbHpJFP)**   - [   INVITE   ](https://discord.com/api/oauth2/authorize?client_id=769330211157835784&permissions=8&scope=bot)
+  .setImage( "https://cdn.discordapp.com/attachments/740344442979876977/809206151895842816/7d20.gif")
+  .setDescription(`**[  SUPPORT  ](https://discord.gg/t8ZwbHpJFP)**   - [   INVITE   ](https://discord.com/api/oauth2/authorize?client_id=765396847379480660&permissions=8&scope=bot)
 
 prefix=\`${prefix}\`
 

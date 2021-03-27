@@ -68,29 +68,27 @@ async execute(message, args, client) {
         //if its an url
         if (urlValid) { //send searching link
           message.channel.send(new MessageEmbed().setColor("#c219d8")
-            .setDescription(`**<:emoji_6:803965446352011325> Searching 🔍 [\`LINK\`](${args.join(" ")})**`))
+            .setDescription(`**<a:emoji_42:815166115114123304> Searching 🔍 [\`LINK\`](${args.join(" ")})**`))
         //if not
         }
         else { //send searching TITLE
           message.channel.send(new MessageEmbed().setColor("#c219d8")
-            .setDescription(`**<:youtube:769675858431705109> Searching 🔍 \`${args.join(" ")}\`**`))
+            .setDescription(`**<a:emoji_44:815166175721029632> Searching 🔍 \`${args.join(" ")}\`**`))
         }
       } else {
         //If nothing is playing join the channel
         queueConstruct.connection = await channel.join();
-        //send join message
-        message.channel.send(new MessageEmbed().setColor("#c219d8")
-          .setDescription(`**👍 Joined \`${channel.name}\` 📄 bound \`#${message.channel.name}\`**`)
+        //send join messag          .setDescription(`**<a:emoji_44:815166175721029632> Joined \`${channel.name}\` 📄 bound \`#${message.channel.name}\`**`)
           .setFooter(`By: ${message.author.username}#${message.author.discriminator}`))
         //if its an url
         if (urlValid) { //send searching link
           message.channel.send(new MessageEmbed().setColor("#c219d8")
-            .setDescription(`**<a:pp326:803965682059837441>  Searching 🔍 [\`LINK\`](${args.join(" ")})**`))
+            .setDescription(`**<a:RAES:765905130238509107> Searching 🔍 [\`LINK\`](${args.join(" ")})**`))
           //if not
         }
         else { //send searching TITLE
           message.channel.send(new MessageEmbed().setColor("#c219d8")
-            .setDescription(`**<a:pp326:803965682059837441>  Searching 🔍 \`${args.join(" ")}\`**`))
+            .setDescription(`**<a:RAES:765905130238509107> Searching 🔍 \`${args.join(" ")}\`**`))
         }
         //Set selfdeaf and serverdeaf true
         queueConstruct.connection.voice.setSelfDeaf(true);
@@ -159,7 +157,7 @@ async execute(message, args, client) {
       serverQueue.songs.push(song);
       //the new song embed
       const newsong = new MessageEmbed()
-        .setTitle("<:⚡:>" + song.title)
+        .setTitle("<a:emoji_124:779963824903421983>" + song.title)
         .setColor("#c219d8")
         .setThumbnail(thumb)
         .setURL(song.url)

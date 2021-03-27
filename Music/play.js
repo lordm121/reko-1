@@ -78,7 +78,9 @@ async execute(message, args, client) {
       } else {
         //If nothing is playing join the channel
         queueConstruct.connection = await channel.join();
-        //send join messag          .setDescription(`**<a:emoji_44:815166175721029632> Joined \`${channel.name}\` 📄 bound \`#${message.channel.name}\`**`)
+        //send join messag
+        messsage.channel.send(new messageEmbed().setcolor("#219d8")
+          .setDescription(`**<a:emoji_44:815166175721029632> Joined \`${channel.name}\` 📄 bound \`#${message.channel.name}\`**`)
           .setFooter(`By: ${message.author.username}#${message.author.discriminator}`))
         //if its an url
         if (urlValid) { //send searching link

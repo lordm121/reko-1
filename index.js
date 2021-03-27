@@ -119,18 +119,5 @@ function delay(delayInms) {
    }, delayInms);
  });
 }
-client.on("guildCreate", guild => {
-let channel = client.channels.cache.get("824683520084672533");
-let embed = new MessageEmbed()
-.setColor("#3ef900")
-.setAuthor(client.user.username, client.user.avatarURL())
-.setTitle(✅I Joined This Server!)
-.addField(" Server Name: ",  ${guild.name})
-.addField(" Server Owner: ",  ${guild.owner})
-.addField(" Server Id: ",  ${guild.id} )
-.addField(" Member Count: ",  ${guild.memberCount})
-.addFooter(${client.user.tag});
-channel.send(embed);
-});
 
 //Bot coded by Tomato#6966 

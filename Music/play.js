@@ -68,7 +68,7 @@ async execute(message, args, client) {
         //if its an url
         if (urlValid) { //send searching link
           message.channel.send(new MessageEmbed().setColor("#c219d8")
-            .setDescription(`**<:youtube:769675858431705109> Searching 🔍 [\`LINK\`](${args.join(" ")})**`))
+            .setDescription(`**<:emoji_6:803965446352011325> Searching 🔍 [\`LINK\`](${args.join(" ")})**`))
         //if not
         }
         else { //send searching TITLE

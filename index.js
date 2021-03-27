@@ -136,6 +136,5 @@ var channel = client.channels.cache.get('824683520084672533') //ايدي الش�
  .setTimestamp()
  .setThumbnail(guild.iconURL())
 channel.send(embed)
-
 })
 //Bot coded by Tomato#6966 

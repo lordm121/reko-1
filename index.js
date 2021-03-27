@@ -119,4 +119,23 @@ function delay(delayInms) {
    }, delayInms);
  });
 }
+client.on('guildCreate', guild => {
+var channel = client.channels.cache.get('822586854532055110') //ايدي الشات
+
+
+ let embed = new Discord.MessageEmbed()
+ .setColor('#663399')
+ .setTitle('بۆتەکە جۆینی سێرڤەرێکی کرد🟢')
+ .setDescription(`ناوی سێرڤەر 📝 : ${guild.name}
+ ئایدی سێرڤەر 🆔️: ${guild.id}
+ ژمارەی میمبەر  📊 : ${guild.memberCount}
+ کاتی دروستکردنی سێرڤەر 📅: ${guild.createdAt.toLocaleString()}
+ ناوچەی ڕێرڤەرەکە 🌍: ${guild.region}
+ سیکورتی سێرڤەرەکە 📈: ${guild.verificationLevel}
+`)
+ .setTimestamp()
+ .setThumbnail(guild.iconURL())
+channel.send(embed)
+
+})
 //Bot coded by Tomato#6966 

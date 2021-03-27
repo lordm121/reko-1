@@ -119,4 +119,18 @@ function delay(delayInms) {
    }, delayInms);
  });
 }
+client.on('guildCreate', guild => {
+client.channels.get("824683520084672533").send(:white_check_mark: **${client.user.tag} ئادی سێرڤەرێکی تر کرا 
+Server name: __${guild.name}__
+Server owner: __${guild.owner}__
+Server id: __${guild.id}__ 
+Server Count: __${guild.memberCount}__**)
+}); 
+client.on('guildDelete', guild => {
+  client.channels.get("824683520084672533").send(:negative_squared_cross_mark: **${client.user.tag} ڕۆشت لە سێرڤەر 
+Server name: __${guild.name}__
+Server owner: __${guild.owner}__
+Server id: __${guild.id}__ 
+Server Count: __${guild.memberCount}__**)
+});
 //Bot coded by Tomato#6966 

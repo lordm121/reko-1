@@ -118,4 +118,5 @@ function delay(delayInms) {
      resolve(2);
    }, delayInms);
  });
+}
 //Bot coded by Tomato#6966 

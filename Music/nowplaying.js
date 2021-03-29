@@ -40,20 +40,20 @@ execute(message) {
     const left = ms - seek;
     //define embed
     let nowPlaying = new MessageEmbed()
-      .setTitle("<:❄:> Now playing")
+      .setTitle("<a:emoji_22:785587926951133254> | Now playing")
       .setDescription(`[**${song.title}**](${song.url})`)
       .setThumbnail(song.thumbnail.url)
       .setColor("#c219d8")
       .setFooter("Time Remaining: " + new Date(left * 1000).toISOString().substr(11, 8));
       //if its a stream
       if(ms >= 10000) {
-        nowPlaying.addField("\u200b", "🔴 LIVE", false);
+        nowPlaying.addField("\u200b", "<a:emoji_22:785587926951133254> | LIVE", false);
         //send approve msg
         return message.channel.send(nowPlaying);
       }
       //If its not a stream
       if (ms > 0 && ms<10000) {
-        nowPlaying.addField("\u200b", "**[" + createBar((ms == 0 ? seek : ms), seek, 25, "▬", "<:currentposition:770098066552258611>")[0] + "]**\n**" + new Date(seek * 1000).toISOString().substr(11, 8) + " / " + (ms == 0 ? " ◉ LIVE" : new Date(ms * 1000).toISOString().substr(11, 8))+ "**" , false );
+        nowPlaying.addField("\u200b", "**[" + createBar((ms == 0 ? seek : ms), seek, 25, "▬", "<a:emoji_22:785587926951133254> |")[0] + "]**\n**" + new Date(seek * 1000).toISOString().substr(11, 8) + " / " + (ms == 0 ? " ◉ LIVE" : new Date(ms * 1000).toISOString().substr(11, 8))+ "**" , false );
         //send approve msg
         return message.channel.send(nowPlaying);
       }

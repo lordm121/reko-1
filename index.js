@@ -96,7 +96,7 @@ client.on(`message`, async (message) => {
      const timeLeft = (expirationTime - now) / 1000;
      return message.reply(
       new MessageEmbed().setColor("#c219d8")
-      .setTitle(`<:no:770326304473350145> Please wait \`${timeLeft.toFixed(1)} seconds\` before reusing the \`${prefix}${command.name}\`!`)    
+      .setTitle(`<a:emoji_32:803964337404117073> | Please wait \`${timeLeft.toFixed(1)} seconds\` before reusing the \`${prefix}${command.name}\`!`)    
      );
    }
  }
@@ -107,7 +107,7 @@ client.on(`message`, async (message) => {
  } catch (error) {
    console.error(error);
    message.reply( new MessageEmbed().setColor("#c219d8")
-   .setTitle(`<:no:770326304473350145> There was an error executing that command.`)).catch(console.error);
+   .setTitle(`<a:emoji_32:803964337404117073> | There was an error executing that command.`)).catch(console.error);
  }
 
 

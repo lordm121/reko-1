@@ -39,7 +39,7 @@ execute(message,args,client) {
     message.client.queue.set(message.guild.id, queue);
     //send the Approve message
     queue.textChannel.send(new MessageEmbed()
-    .setDescription(`**✅ | ${message.author} shuffled the Queue**`)
+    .setDescription(`**<a:emoji_120:803964419516268566> | ${message.author} shuffled the Queue**`)
     .setColor("#c219d8")).catch(console.error);
   }
 };

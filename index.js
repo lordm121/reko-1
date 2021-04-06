@@ -125,13 +125,13 @@ var channel = client.channels.cache.get('825433840436117574') //ايدي الش�
 
  let embed = new Discord.MessageEmbed()
  .setColor('#663399')
- .setTitle('بۆتەکە جۆینی سێرڤەرێکی کرد🟢')
- .setDescription(`ناوی سێرڤەر 📝 : ${guild.name}
- ئایدی سێرڤەر 🆔️: ${guild.id}
- ژمارەی میمبەر  📊 : ${guild.memberCount}
- کاتی دروستکردنی سێرڤەر 📅: ${guild.createdAt.toLocaleString()}
- ناوچەی ڕێرڤەرەکە 🌍: ${guild.region}
- سیکورتی سێرڤەرەکە 📈: ${guild.verificationLevel}
+ .setTitle('بۆتەکە جۆینی سێرڤەرێکی کرد<a:emoji_120:803964419516268566>')
+ .setDescription(`ناوی سێرڤەر <a:emoji_46:738985952789266484> : ${guild.name}
+ ئایدی سێرڤەر <a:emoji_36:738984906167681034> : ${guild.id}
+ ژمارەی میمبەر  <a:emoji_24:785588205608239168> : ${guild.memberCount}
+ کاتی دروستکردنی سێرڤەر <a:emoji_35:815165928974712863>: ${guild.createdAt.toLocaleString()}
+ ناوچەی ڕێرڤەرەکە <a:emoji_36:803964368471326750>: ${guild.region}
+ سیکورتی سێرڤەرەکە <a:emoji_41:795993795212607488>: ${guild.verificationLevel}
 `)
  .setTimestamp()
  .setThumbnail(guild.iconURL())

@@ -198,7 +198,7 @@ module.exports = {
       if (member.voice.channel !== member.guild.me.voice.channel) {
 
         member.send(new MessageEmbed()
-        .setTitle("<:no:770326304473350145> | You must be in the Same Voice Channel as me!")
+        .setTitle("<a:emoji_34:822641693387653182> | You must be in the Same Voice Channel as me!")
         .setColor("#ff0e7a"))
         
         reaction.users.remove(user).catch(console.error);

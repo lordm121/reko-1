@@ -15,7 +15,7 @@ module.exports = {
     .setColor('RANDOM')
     .setTitle("__Help__")
   .setImage( "https://cdn.discordapp.com/attachments/740344442979876977/812508833880604753/931c44efb4f87684-gif-music-song-beats-animation-family-headphones-audio-att.gif") 
-  .setDescription(`**[  SUPPORT  ](https://discord.gg/t8ZwbHpJFP)**   - [   INVITE   ](https://discord.com/api/oauth2/authorize?client_id=769330211157835784&permissions=8&scope=bot)[VOTE](https://top.gg/bot/769330211157835784/vote)** - 
+  .setDescription(`**[  SUPPORT  ](https://discord.gg/t8ZwbHpJFP)**   - [   INVITE   ](https://discord.com/api/oauth2/authorize?client_id=769330211157835784&permissions=8&scope=bot)-[VOTE](https://top.gg/bot/769330211157835784/vote) 
 
 prefix=\`${prefix}\`
 

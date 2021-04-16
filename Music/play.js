@@ -68,12 +68,12 @@ async execute(message, args, client) {
         //if its an url
         if (urlValid) { //send searching link
           message.channel.send(new MessageEmbed().setColor("#c219d8")
-            .setDescription(`**<a:emoji_23:822641348490166274> | Searching 🔍 [\`LINK\`](${args.join(" ")})**`))
+            .setDescription(`** | Searching 🔍 [\`LINK\`](${args.join(" ")})**`))
         //if not
         }
         else { //send searching TITLE
           message.channel.send(new MessageEmbed().setColor("#c219d8")
-            .setDescription(`**<a:emoji_23:822641348490166274> | Searching 🔍 \`${args.join(" ")}\`**`))
+            .setDescription(`** | Searching 🔍 \`${args.join(" ")}\`**`))
         }
       } else {
         //If nothing is playing join the channel

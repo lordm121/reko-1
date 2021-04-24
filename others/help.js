@@ -23,6 +23,7 @@ Others
 
 \`${prefix}help\`      \`${prefix}ping\` 
 \`${prefix}prefix\`    \`${prefix}uptime\`
+\`${prefix}botlist\`
 
 Music
 

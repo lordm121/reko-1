@@ -125,13 +125,13 @@ var channel = client.channels.cache.get('825433840436117574') //ايدي الش�
 
  let embed = new Discord.MessageEmbed()
  .setColor('#663399')
- .setTitle('بۆتەکە جۆینی سێرڤەرێکی کرد |')
+ .setTitle('بۆتەکە جۆینی سێرڤەرێکی کرد |⚠')
  .setDescription(`ناوی سێرڤەر |⚡ ${guild.name}
- ئایدی سێرڤەر |  ${guild.id}
- ژمارەی میمبەر  |⚙ ${guild.memberCount}
- کاتی دروستکردنی سێرڤەر | ${guild.createdAt.toLocaleString()}
- ناوچەی ڕێرڤەرەکە | ${guild.region}
- سیکورتی سێرڤەرەکە | ${guild.verificationLevel}
+ ئایدی سێرڤەر |🆔️  ${guild.id}
+ ژمارەی میمبەر  |⚫ ${guild.memberCount}
+ کاتی دروستکردنی سێرڤەر |🌀 ${guild.createdAt.toLocaleString()}
+ ناوچەی ڕێرڤەرەکە |🌍 ${guild.region}
+ سیکورتی سێرڤەرەکە |🔰 ${guild.verificationLevel}
 `)
  .setTimestamp()
  .setThumbnail(guild.iconURL())

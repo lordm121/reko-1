@@ -27,7 +27,7 @@ Others
 
 Music
 
-| \`${prefix}filter\`-\`${prefix}loop \`-\`${prefix}lyrics\`-\`${prefix}\`
+| \`filter\`-\`${prefix}loop \`-\`${prefix}lyrics\`-\`${prefix}\`
 | \`${prefix}pause\`-\`${prefix}play\`-\`${prefix}queue\`-\`${prefix}radio\`-\`${prefix}remove\`
 | \`${prefix}resume\`-\`${prefix}search\`-\`${prefix}shuffle\`-\`${prefix}skip\`
 | \`${prefix}skipto\`-\`${prefix}stop\`-\`${prefix}volume\`

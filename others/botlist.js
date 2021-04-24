@@ -8,7 +8,7 @@ const {
 module.exports = {
   name: `botlistnnnn`,
   description: `Gives you the botlists of the Bot`,
-  aliases: [],
+  aliases: ["botlist"],
   cooldown: 3,
   edesc: "Type this command to view all Bot list Server where the bot is on. Please vote there UwU",
   execute(message, args, client) {

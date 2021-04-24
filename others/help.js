@@ -27,10 +27,10 @@ module.exports = {
 
 Music
 
-| \`filter\`•\`loop \`•\`lyrics\`•\`np\`
-| \`pause\`•\`play\`•\`queue\`•\`$radio\`•\`remove\`
-| \`resume\`•\`search\`-\`shuffle\`•\`skip\`
-| \`skipto\`•\`stop\`•\`volume\`
+| \`filter\` - \`loop \` - \`lyrics\` - \`np\`
+| \`pause\` - \`play\` - \`queue\` - \`radio\` - \`remove\`
+| \`resume\` - \`search\` - \`shuffle\` - \`skip\`
+| \`skipto\` - \`stop\` - \`volume\`
 
 
 `)

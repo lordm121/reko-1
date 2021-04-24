@@ -20,7 +20,7 @@ module.exports = {
     .addField("add bot","https://discord.com/api/oauth2/authorize?client_id=769330211157835784&permissions=8&scope=bot")
     .addField("top.gg", "https://top.gg/bot/769330211157835784/vote")
     .addField("bots.ondiscord","https://bots.ondiscord.xyz/bots/769642999227351070")
-    .addField("discordbotlist","https://discordbotlist.com/bots/music-bot-1793")'
+    .addField("discordbotlist","https://discordbotlist.com/bots/music-bot-1793")
     );
 
   }

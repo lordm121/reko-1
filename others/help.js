@@ -17,20 +17,20 @@ module.exports = {
   .setImage( "https://cdn.discordapp.com/attachments/740344442979876977/835450349326303242/image0-137.gif") 
   .setDescription(`**[  SUPPORT  ](https://discord.gg/t8ZwbHpJFP)**   - [   INVITE   ](https://discord.com/api/oauth2/authorize?client_id=769330211157835784&permissions=8&scope=bot)-   [ VOTE ](https://top.gg/bot/769330211157835784/vote) 
 
-prefix=\`${prefix}\`
+| prefix=\`${prefix}\`
 
-Others
+| Others
 
-\`${prefix}help\`      \`${prefix}ping\` 
-\`${prefix}prefix\`    \`${prefix}uptime\`
-\`${prefix}botlist\`
+| \`${prefix}help\`      \`${prefix}ping\` 
+| \`${prefix}prefix\`    \`${prefix}uptime\`
+           \`${prefix}botlist\`
 
 Music
 
-| \`filter\`-\`${prefix}loop \`-\`${prefix}lyrics\`-\`${prefix}\`
-| \`${prefix}pause\`-\`${prefix}play\`-\`${prefix}queue\`-\`${prefix}radio\`-\`${prefix}remove\`
-| \`${prefix}resume\`-\`${prefix}search\`-\`${prefix}shuffle\`-\`${prefix}skip\`
-| \`${prefix}skipto\`-\`${prefix}stop\`-\`${prefix}volume\`
+| \`filter\`•\`loop \`•\`lyrics\`•\`np\`
+| \`pause\`•\`play\`•\`queue\`•\`$radio\`•\`remove\`
+| \`resume\`•\`search\`-\`shuffle\`•\`skip\`
+| \`skipto\`•\`stop\`•\`volume\`
 
 
 `)

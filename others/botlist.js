@@ -18,8 +18,8 @@ module.exports = {
     message.reply(new MessageEmbed().setColor("#c219d8")
     .setTitle("Here is Bot-Lists this Bot is on!")
     .addField("add bot: ",`**[click here!](https://discord.com/api/oauth2/authorize?client_id=769330211157835784&permissions=8&scope=bot)**`, true)
-    .addField("top.gg: ", `**[click here! ](https://top.gg/bot/769330211157835784/vote**`,)
-    .addField("discordbotlist: ",`**[click here] (https://discordbotlist.com/bots/music-bot-1793**`,)
+    .addField("top.gg: ", `**[click here! ](https://top.gg/bot/769330211157835784/vote**`, true)
+    .addField("discordbotlist: ",`**[click here] (https://discordbotlist.com/bots/music-bot-1793**`, true)
     );
 
   }

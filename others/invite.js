@@ -15,7 +15,7 @@ module.exports = {
     //react with approve emoji
     message.react("769665713124016128");
     //send the invite embed
-    message.reply(new MessageEmbed().setColor("#c219d8").setTitle(":heart: Please Invite me: ").setDescription(invite link: ",`**(https://discord.com/api/oauth2/authorize?client_id=769330211157835784&permissions=8&scope=bo‌t)**`, true)
+    message.reply(new MessageEmbed().setColor("#c219d8").setTitle(":heart: Please Invite me: ").setDescription("invite link: ",`**(https://discord.com/api/oauth2/authorize?client_id=769330211157835784&permissions=8&scope=bo‌t)**`, true)
     .setFooter("And enjoy listening to music!", ""));
 
   }

@@ -17,7 +17,7 @@ module.exports = {
     //send the botlist embed
     message.reply(new MessageEmbed().setColor("#c219d8")
     .setTitle("Here is Bot-Lists this Bot is on!")
-    .addField("add bot",`**[click here!] (https://discord.com/api/oauth2/authorize?client_id=769330211157835784&permissions=8&scope=bot)**`, true)
+    .addField("add bot: ",`**[click here!] (https://discord.com/api/oauth2/authorize?client_id=769330211157835784&permissions=8&scope=bot)**`, true)
     .addField("top.gg", "**https://top.gg/bot/769330211157835784/vote**")
     .addField("discordbotlist","**https://discordbotlist.com/bots/music-bot-1793**")
     );

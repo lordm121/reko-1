@@ -6,9 +6,9 @@ const {
 } = require(`../config.json`);
 
 module.exports = {
-  name: `invitelllllll`,
+  name: `invite`,
   description: `Gives you an invite`,
-  aliases: ["add"],
+  aliases: ["invite"],
   cooldown: 3,
   edesc: "Type this command to get an invite link for the Bot, thanks for every Invite",
   execute(message, args, client) {

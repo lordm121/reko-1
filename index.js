@@ -120,7 +120,7 @@ function delay(delayInms) {
  });
 }
 client.on('guildCreate', guild => {
-var channel = client.channels.cache.get('825433840436117574') //ايدي الشات
+var channel = client.channels.cache.get('837692597114765322') //ايدي الشات
 
 
  let embed = new Discord.MessageEmbed()

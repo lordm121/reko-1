@@ -17,7 +17,7 @@ module.exports = {
   .setImage( "https://cdn.discordapp.com/attachments/740344442979876977/835450349326303242/image0-137.gif") 
   .setDescription(`**[  SUPPORT  ](https://discord.gg/t8ZwbHpJFP)**   - [   INVITE   ](https://discord.com/api/oauth2/authorize?client_id=769330211157835784&permissions=8&scope=bot)-   [ VOTE ](https://top.gg/bot/769330211157835784/vote) 
 
-| prefix=\`${prefix}\`
+<a:emoji_42:748310486126166068>| prefix=\`${prefix}\`
 
 | Others
 

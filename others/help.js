@@ -19,13 +19,13 @@ module.exports = {
 
  > prefix=\`${prefix}\`
 
-| Others
+> Other 
 
 \`help\`      \`ping\` 
 \`prefix\`    \`uptime\`
 \`botlist\`
 
-| Music
+> Music 
 
 \`filter\` - \`loop \` - \`lyrics\` - \`np\`
 \`pause\` - \`play\` - \`queue\` - \`radio\` - \`remove\`

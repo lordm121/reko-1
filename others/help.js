@@ -14,7 +14,7 @@ module.exports = {
     .setFooter(message.author.username, message.author.displayAvatarURL)
     .setColor('RANDOM')
     .setTitle("__Help__")
-  .setImage( "https://cdn.discordapp.com/attachments/740344442979876977/835450349326303242/image0-137.gif") 
+  .setImage("https://cdn.discordapp.com/attachments/808760849867079721/838228786742820904/standard_1.gif") 
   .setDescription(`**[  SUPPORT  ](https://discord.gg/t8ZwbHpJFP)**   - [   INVITE   ](https://discord.com/api/oauth2/authorize?client_id=769330211157835784&permissions=8&scope=bot)-   [ VOTE ](https://top.gg/bot/769330211157835784/vote) 
 
  > prefix=\`${prefix}\`

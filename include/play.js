@@ -161,7 +161,7 @@ module.exports = {
 
     try {
       const newsong = new MessageEmbed()
-        .setTitle("<a:emoji_120:803964419516268566> | "+song.title)
+        .setTitle("⚡| "+song.title)
         .setURL(song.url)
         .setColor("#c219d8")
         .setThumbnail(thumb)

@@ -17,7 +17,7 @@ module.exports = {
   .setImage("https://cdn.discordapp.com/attachments/808760849867079721/838228786742820904/standard_1.gif") 
   .setDescription(`**[  SUPPORT  ](https://discord.gg/t8ZwbHpJFP)**   - **[   INVITE   ](https://discord.com/api/oauth2/authorize?client_id=769330211157835784&permissions=8&scope=bot)- **  **[ VOTE ](https://top.gg/bot/769330211157835784/vote)** 
 
- <a:emoji_21:847035009298595860>| prefix=\`${prefix}\`
+ <a:emoji_5:793390710233497600>| prefix=\`${prefix}\`
 
 
 <a:emoji_111:824383375376646174>| Other
@@ -26,7 +26,7 @@ module.exports = {
 \`prefix\`    \`uptime\`
 \`botlist\`
 
-<a:emoji_36:768498519484268574> | Music 
+<a:emoji_36:768498519484268574>|Music 
 
 \`filter\` - \`loop \` - \`lyrics\` - \`np\`
 \`pause\` - \`play\` - \`queue\` - \`radio\` - \`remove\`

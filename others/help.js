@@ -25,7 +25,7 @@ module.exports = {
 \`prefix\`    \`uptime\`
 \`botlist\`
 
-<a:emoji_16:846056106392420383> > Music 
+<a:emoji_36:768498519484268574> | Music 
 
 \`filter\` - \`loop \` - \`lyrics\` - \`np\`
 \`pause\` - \`play\` - \`queue\` - \`radio\` - \`remove\`

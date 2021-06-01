@@ -19,6 +19,7 @@ module.exports = {
 
  <a:emoji_10:768497568110870548> | prefix=\`${prefix}\`
 
+
 <a:emoji_30:768498314118299658> | Other 
 
 \`help\`      \`ping\` 

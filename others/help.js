@@ -15,11 +15,11 @@ module.exports = {
     .setColor('RANDOM')
     .setTitle("__Help__")
   .setImage("https://cdn.discordapp.com/attachments/808760849867079721/838228786742820904/standard_1.gif") 
-  .setDescription(`**[  SUPPORT  ](https://discord.gg/t8ZwbHpJFP)**   - [   INVITE   ](https://discord.com/api/oauth2/authorize?client_id=769330211157835784&permissions=8&scope=bot)-   [ VOTE ](https://top.gg/bot/769330211157835784/vote) 
+  .setDescription(`**[  SUPPORT  ](https://discord.gg/t8ZwbHpJFP)**   - **[   INVITE   ](https://discord.com/api/oauth2/authorize?client_id=769330211157835784&permissions=8&scope=bot)- **  **[ VOTE ](https://top.gg/bot/769330211157835784/vote)** 
 
- > prefix=\`${prefix}\`
+ <a:emoji_10:768497568110870548> | prefix=\`${prefix}\`
 
-> Other 
+<a:emoji_30:768498314118299658> | Other 
 
 \`help\`      \`ping\` 
 \`prefix\`    \`uptime\`

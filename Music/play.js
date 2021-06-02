@@ -80,17 +80,17 @@ async execute(message, args, client) {
         queueConstruct.connection = await channel.join();
         //send join messag
         messsage.channel.send(new MessageEmbed().setcolor("#219d8")
-          .setDescription(`**<a:emoji_23:822641348490166274> | Joined \`${channel.name}\` 📄 bound \`#${message.channel.name}\`**`)
+          .setDescription(`**<a:emoji_1:849776457122185277> | Joined \`${channel.name}\` 📄 bound \`#${message.channel.name}\`**`)
           .setFooter(`By: ${message.author.username}#${message.author.discriminator}`))
         //if its an url
         if (urlValid) { //send searching link
           message.channel.send(new MessageEmbed().setColor("#c219d8")
-            .setDescription(`**<a:emoji_23:822641348490166274> | Searching 🔍 [\`LINK\`](${args.join(" ")})**`))
+            .setDescription(`**<a:emoji_1:849776457122185277> | Searching 🔍 [\`LINK\`](${args.join(" ")})**`))
           //if not
         }
         else { //send searching TITLE
           message.channel.send(new MessageEmbed().setColor("#c219d8")
-            .setDescription(`**<a:emoji_23:822641348490166274> | Searching 🔍 \`${args.join(" ")}\`**`))
+            .setDescription(`**<a:emoji_1:849776457122185277> | Searching 🔍 \`${args.join(" ")}\`**`))
         }
         //Set selfdeaf and serverdeaf true
         queueConstruct.connection.voice.setSelfDeaf(true);

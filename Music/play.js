@@ -68,29 +68,29 @@ async execute(message, args, client) {
         //if its an url
         if (urlValid) { //send searching link
           message.channel.send(new MessageEmbed().setColor("#c219d8")
-            .setDescription(`** | Searching 🔍 [\`LINK\`](${args.join(" ")})**`))
+            .setDescription(`**<a:emoji_5:849776519165509683> | Searching 🔍 [\`LINK\`](${args.join(" ")})**`))
         //if not
         }
         else { //send searching TITLE
           message.channel.send(new MessageEmbed().setColor("#c219d8")
-            .setDescription(`** | Searching 🔍 \`${args.join(" ")}\`**`))
+            .setDescription(`**<a:emoji_5:849776519165509683> | Searching 🔍 \`${args.join(" ")}\`**`))
         }
       } else {
         //If nothing is playing join the channel
         queueConstruct.connection = await channel.join();
         //send join messag
         messsage.channel.send(new MessageEmbed().setcolor("#219d8")
-          .setDescription(`**<a:emoji_1:849776457122185277> | Joined \`${channel.name}\` 📄 bound \`#${message.channel.name}\`**`)
+          .setDescription(`**<a:emoji_1:849776441126158337> | Joined \`${channel.name}\` 📄 bound \`#${message.channel.name}\`**`)
           .setFooter(`By: ${message.author.username}#${message.author.discriminator}`))
         //if its an url
         if (urlValid) { //send searching link
           message.channel.send(new MessageEmbed().setColor("#c219d8")
-            .setDescription(`**<a:emoji_1:849776457122185277> | Searching 🔍 [\`LINK\`](${args.join(" ")})**`))
+            .setDescription(`**<a:emoji_1:849776441126158337> | Searching 🔍 [\`LINK\`](${args.join(" ")})**`))
           //if not
         }
         else { //send searching TITLE
           message.channel.send(new MessageEmbed().setColor("#c219d8")
-            .setDescription(`**<a:emoji_1:849776457122185277> | Searching 🔍 \`${args.join(" ")}\`**`))
+            .setDescription(`**<a:emoji_1:849776441126158337> | Searching 🔍 \`${args.join(" ")}\`**`))
         }
         //Set selfdeaf and serverdeaf true
         queueConstruct.connection.voice.setSelfDeaf(true);

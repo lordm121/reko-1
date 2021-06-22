@@ -20,13 +20,13 @@ module.exports = {
  <a:emoji_5:793390710233497600>| prefix=\`${prefix}\`
 
 
-<a:emoji_111:824383375376646174>| Other
+<a:emoji_1:849776457122185277>| Other
 
 \`help\`      \`ping\` 
 \`prefix\`    \`uptime\`
 \`botlist\`
 
-🎵|Music 
+<a:emoji_1:849776441126158337>|Music 
 
 \`filter\` - \`loop \` - \`lyrics\` - \`np\`
 \`pause\` - \`play\` - \`queue\` - \`radio\` - \`remove\`

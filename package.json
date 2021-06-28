@@ -1,24 +1,50 @@
 {
-  "name": "atest2",
-  "version": "1.0.0",
-  "description": "Music Bot",
+  "name": "playlist-importer-lite",
+  "version": "0.1.4",
+  "description": "Return JSON data from playlists on popular music platforms",
   "main": "index.js",
   "scripts": {
-    "test": "Error"
+    "test": "node_modules/.bin/mocha",
+    "test-watch": "node_modules/.bin/mocha -w"
   },
-  "author": "Tomato#6966",
-  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enioluwa23/playlist-importer-lite.git"
+  },
+  "keywords": [
+    "music",
+    "playlist",
+    "import",
+    "parse",
+    "json",
+    "spotify",
+    "pandora",
+    "apple music",
+    "apple"
+  ],
+  "author": "Enioluwa Segun",
+  "license": "MIT",
+  "bin": {
+    "playlist-importer-lite": "./cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/enioluwa23/playlist-importer-lite/issues"
+  },
+  "homepage": "https://github.com/enioluwa23/playlist-importer-lite#readme",
   "dependencies": {
-    "@discordjs/opus": "^0.3.3",
-    "discord-ytdl-core": "^5.0.4",
-    "discord.js": "^12.5.3",
-    "ffmpeg-static": "^4.2.7",
-    "figlet": "^1.5.0",
-    "lyrics-finder": "^21.7.0",
-    "node.js": "0.0.1-security",
-    "quick.db": "^7.1.3",
-    "string-progressbar": "^1.0.1",
-    "youtube-sr": "^4.1.5",
-    "ytdl-core": "^4.8.3"
+    "await-to-js": "^2.1.1",
+    "axios": "^0.18.0",
+    "chalk": "^2.4.2",
+    "cheerio": "^1.0.0-rc.3",
+    "commander": "^2.20.0",
+    "valid-filename": "^3.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.13.0",
+    "eslint-plugin-import": "^2.17.2",
+    "mocha": "^6.1.4"
   }
 }

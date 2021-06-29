@@ -5,7 +5,8 @@ const { play } = require("../include/play");
 const { Client, Collection, MessageEmbed } = require("discord.js");
 const { attentionembed } = require("../util/attentionembed");
 const { PREFIX } = require(`../config.json`);
-const ytsr = require("youtube-sr")
+//const ytsr = require("youtube-sr")
+const yts = require("yt-search");
 
 ////////////////////////////
 //////COMMAND BEGIN/////////
